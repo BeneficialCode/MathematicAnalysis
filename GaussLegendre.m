@@ -40,7 +40,6 @@ if m<(n+1)/2
     fv = fv + A(n,m+1)*feval(f,b1);
 end
 res = fv * a1;
-fprintf('计算结果：%.14f\n', res);
 % 程序结束
 
 
